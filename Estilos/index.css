@@ -1,0 +1,100 @@
+/*
+<selector> {
+    <propiedad>: <valor>;
+    <propiedad>: <valor>;
+    <propiedad>: <valor>;
+    <propiedad>: <valor>;
+}
+*/
+
+/*
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+*/
+
+.goal-menu a {
+    color:  brown;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.goal-menu a.segundo-nivel {
+    font-size: medium;
+    color: aliceblue
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a {
+    color: yellow;
+}
+
+p {
+    color: beige
+}
+
+li {
+    color: beige;
+}
+
+#logo {
+    color: tomato;
+}
+
+#intro {
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+    color: black;
+}
+a:visited{
+    color: blueviolet;
+}
+
+a:active {
+    color: red;
+}
+
+/*
+    rgb -> red green blue
+    #000
+    #000000
+    rgb(0, 0, 0)
+    hsl(0, 0, 0)
+    rgba(0, 0, 0, 0)
+
+*/
+
+a.boton:link {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a.boton:hover{
+    background-color: red;
+}
+
+
+
+
+

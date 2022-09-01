@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+</head>
+
+<body>
+
+    <form method="get" action="/api/registro">
+        <label for="username">Nombre de usuario</label>
+        <input id="username" type="text" name="uname" placeholder="Nombre" required aria-required="true">
+
+        <label>Contraseña</label>
+        <input type="password" name="pass" placeholder="Contraseña" required>
+
+        <label>Edad</label>
+        <input type="number" name="age" placeholder="Edad" required>
+
+        <label>Correo electrónico</label>
+        <input type="email" name="email">
+
+        <label>Color</label>
+        <input type="color" name="color">
+
+        <label></label>
+        <input type="range" min="0" max="100">
+
+        <label>Fecha de nacimiento</label>
+        <input type="date">
+
+        <label>Hora de nacimiento</label>
+        <input type="time">
+
+        <label for="">Genero</label>
+        <span>
+            <input id="male" name="genre" type="radio" value="M" checked>
+            <label for="male">Masculino</label>
+
+            <input id="female" name="genre" type="radio" value="F">
+            <label for="female">Femenino</label>
+
+            <input id="none" name="genre" type="radio" value="I">
+            <label for="none">Indeterminado</label>
+        </span>
+
+        <label for="">Hobbie</label>
+        <span>
+            <input id="basketball" name="hobbie" type="checkbox" value="bb">
+            <label for="basketball">Baloncesto</label>
+
+            <input type="checkbox" name="hobbie" value="Vb">
+            <label>Voleyball</label>
+
+            <input type="checkbox" name="hobbie" value="Ft">
+            <label>Futbol</label>
+
+            <input type="checkbox" name="hobbie" value="Tn">
+            <label>Tenis</label>
+        </span>
+
+
+
+        <label for="logros">Logros</label>
+        <textarea id="Logros"></textarea>
+
+        <label for="">Especialidad</label>
+        <select id="">
+            <option>Ingeniería de Sistemas</option>
+            <option>Ingeniería Electrica</option>
+            <option>Ingeniería Mecánica</option>
+            <option>Administración de Empresas</option>
+            <option selected>Contaduría</option>
+        </select>
+
+        <label>Otras carreras que le gustan</label>
+        <input list="afines">
+        <datalist id="afines">
+            <option>Ingeniería de Sistemas</option>
+            <option>Ingeniería Eléctrica</option>
+            <option>Ingeniería Mecánica</option>
+            <option>Administración de Empresas</option>
+            <option>Contaduría</option>
+        </datalist>
+
+        <input type="search">
+
+        <input type="file">
+        <input type="hidden">
+
+
+        <hr>
+        <input type="button" value="Es un boton"  ondblclick="mostrarMensaje('Doble click en input button')">
+        <input type="submit" value="Otro Enviar">
+        <input type="reset" value="Otro Limpiar">
+
+        <button type="button" onclick="mostrarMensaje('Click en boton accionar')">Accionar</button>
+        <button type="reset">Limpiar</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form>
+        <label for="contador">Contador</label>
+        <input id="contador" type="number" value="50">
+        <button type="button" onclick="incrementarContador()">Incrementar</button>
+        <p id="salida"></p>
+    
+    </form>
+
+    <script src="js/contactenos.js"></script>
+</body>
+
+</html>

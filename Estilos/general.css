@@ -1,0 +1,34 @@
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border: 3px solid blue;
+}
+
+td {
+    border-bottom: 1px solid black;
+}
+
+video {
+    width: 100%;
+}
+
+    
